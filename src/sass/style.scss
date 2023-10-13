@@ -1,0 +1,52 @@
+$black: #08020d;
+$grey: #e0e0e0;
+$dark-grey: #cacaca;
+$dark: #3c3b3d;
+$green: #34c176;
+$orange: #f89202;
+$purple: #5328a1;
+$red: #95390c;
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  line-height:  1.5;
+  color: $dark-grey;
+  background-color: $black;
+  margin: 0;
+}
+
+%header {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  @extend %header;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  @extend %header
+}
+
+@media(max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    @extend %header;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
