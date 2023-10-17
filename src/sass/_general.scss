@@ -1,0 +1,100 @@
+@import "variables";
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  color: $dark-grey;
+  background-color: $black;
+  margin: 0;
+  font-size: 16px;
+}
+
+%header {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  color: $white;
+}
+
+%page-container {
+  max-width: 1200px;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  @extend %header;
+  text-align: center;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  @extend %header;
+  text-align: center;
+}
+
+.page-container {
+  @extend %page-container;
+  position: relative;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  font-family: Arial, sans-serif;
+  font-size: 13.3px;
+  text-transform: uppercase;
+}
+
+@media(max-width: 1239px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .page-container {
+    padding: 0 20px;
+    width: auto;
+    position: relative;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  border: 0;
+}
+
+input {
+  outline: none;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-grey;
+}

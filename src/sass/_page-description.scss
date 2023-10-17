@@ -1,0 +1,174 @@
+@import "variables";
+
+.page-section {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.head-container {
+  position: absolute;
+  top: 25px;
+  display: flex;
+  gap: 90px;
+  width: 100%;
+}
+
+#header {
+  padding: 200px 0;
+}
+
+.logo {
+  display: flex;
+  gap: 16px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.logo-text:hover,
+.text-item:hover a {
+  color: $white;
+}
+
+.menu-text {
+  padding: 0;
+  margin: 0;
+  font-size: 11px;
+  line-height: 16.5px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 24px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.head-left {
+  font-size: 11px;
+  line-height: 16.5px;
+}
+
+.text-item {
+  list-style-type: none;
+}
+
+.head-search {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.search-form {
+  width: 248px;
+  border: none;
+  border-radius: 50px;
+  background: #3C3B3D;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header-title,
+.subtitle {
+  font-weight: bold;
+}
+
+.subtitle {
+  padding-bottom: 31px;
+}
+
+.subtitle-text {
+  padding-bottom: 17px;
+  color: $white;
+  text-align: center;
+}
+
+.btn-h {
+  box-sizing: border-box;
+  min-width: 270px;
+  min-height: 50px;
+  padding: 0 0 0 20px;
+  margin-bottom: 1.5rem;
+  border: 2px solid $dark-grey;
+  border-radius: 3px;
+  background: none;
+}
+
+.btn-h::placeholder {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.btn-hd {
+  background: $green;
+  width: 570px;
+}
+
+.btn-hd:hover {
+  cursor: pointer;
+}
+
+@media(max-width: 1239px) {
+  .head-container,
+  .menu-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    line-height: normal;
+    font-weight: bold;
+  }
+
+  .head-container {
+    position: relative;
+  }
+
+  .head-left {
+    padding-bottom: 17px;
+    line-height: normal;
+    font-weight: bold;
+  }
+
+  .head-search {
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 101px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  .search-form,
+  .btn-hd,
+  .btn-h {
+    width: 100%;
+  }
+  .subtitle {
+    padding-bottom: 15px;
+  }
+
+  .form {
+    padding-bottom: 208px;
+  }
+
+  .text-item {
+    line-height: normal;
+    font-weight: bold;
+  }
+}

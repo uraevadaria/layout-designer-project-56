@@ -1,0 +1,85 @@
+@import "variables";
+
+.page-subscription{
+  color: $white;
+}
+
+.cards-items {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+.card-item {
+  width: 320px;
+  height: 615px;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+  text-transform: uppercase;
+  padding-top: 24px;
+  margin: 0;
+}
+
+.bg-free {
+  background-image: url("../images/subscribe_1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standard {
+  background-image: url("../images/subscribe_2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url("../images/subscribe_3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-d{
+  background: none;
+  width: 100%;
+  border: 1px solid $white;
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+  margin-bottom: 64px;
+}
+
+.flex {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  line-height: 1em;
+  padding-bottom: 40px;
+  padding-top: 230px;
+}
+
+.price {
+  font-size: 64px;
+}
+
+.rub {
+  font-size: 32px;
+}
+
+.text-card,
+.text-under-cards {
+  text-align: center;
+}

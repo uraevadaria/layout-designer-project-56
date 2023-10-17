@@ -6,9 +6,120 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Портал «Music Box»</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+<main class="page-root">
+    <div class="page-section">
+        <div class="page-container" id="header">
+            <div class="head-container" id="page-description">
+                <div class="head-left">
+                    <a href="">
+                        <div class="logo">
+                            <img src="images/logo.svg" alt="logo" width="24" height="24">
+                            <div class="logo-text">Music Box</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="menu-text">
+                        <li class="text-item"><a href="">Главная</a></li>
+                        <li class="text-item"><a href="">Каталог</a></li>
+                        <li class="text-item"><a href="">Исполнители</a></li>
+                        <li class="text-item"><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="head-search">
+                    <div class="search">
+                        <form action="">
+                            <label for="search" class="sr-only">Поиск</label>
+                            <input class="search-form" name="search" id="search" placeholder="Поиск..." type="search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="page-main">
+                <h1 class="header-title">Онлайн музыка где угодно</h1>
+                <h2 class="subtitle">без ограничений</h2>
+                <div class="subtitle-text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир
+                    музыки
+                </div>
+                <div class="form">
+                    <form action="">
+                        <div class="input">
+                            <label for="name" class="sr-only">Имя</label>
+                            <input class="btn-h" name="name" id="name" placeholder="Имя" type="text">
+                            <label for="email" class="sr-only">Email</label>
+                            <input class="btn-h" name="email" id="email" placeholder="Email" type="email">
+                        </div>
+                        <label for="submit" class="sr-only">Получить доступ</label>
+                        <input class="btn-hd btn" name="submit" id="submit" type="submit" value="Получить доступ">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="page-subscription">
+            <div class="page-container" id="page-pricing">
+                <h2 class="subscription-title">Формы подписки</h2>
+                <div class="cards">
+                    <ul class="cards-items">
+                        <li class="card-item bg-free">
+                            <h3 class="type">Бесплатная</h3>
+                            <div class="flex">
+                                <div class="price">0</div>
+                                    <div class="rub">РУБ.</div>
+                            </div>
+                            <form action="">
+                                <label for="free" class="sr-only">ОФОРМИТЬ</label>
+                                <input class="btn-d btn" name="submit" id="free" type="submit" value="ОФОРМИТЬ">
+                            </form>
+                            <div class="text-card">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей
+                                коллекции музыки.
+                                Присутствует реклама
+                            </div>
 
+                        </li>
+                        <li class="card-item bg-standard">
+                            <h3 class="type">Стандартная</h3>
+                            <div class="flex">
+                                <div class="price">250</div>
+                                    <div class="rub">РУБ.</div>
+                            </div>
+                            <form action="">
+                                <label for="standard" class="sr-only">ОФОРМИТЬ</label>
+                                <input class="btn-d btn" name="submit" id="standard" type="submit" value="ОФОРМИТЬ">
+                            </form>
+                            <div class="text-card">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей
+                                коллекции музыки в
+                                среднем качестве
+                            </div>
+                        </li>
+                        <li class="card-item bg-premium">
+                            <h3 class="type">Премиум</h3>
+                            <div class="flex">
+                                <div class="price">500</div>
+                                    <div class="rub">РУБ.</div>
+                            </div>
+                            <form action="">
+                                <label for="premium" class="sr-only">ОФОРМИТЬ</label>
+                                <input class="btn-d btn" name="submit" id="premium" type="submit" value="ОФОРМИТЬ">
+                            </form>
+                            <div class="text-card">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции
+                                музыки в высоком
+                                качестве
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="text-under-cards">На всех тарифах возможно прослушивание музыки с мобильных устройств.
+                        На
+                        премиум тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без
+                        подключения к интернету
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>
 </body>
 </html>
