@@ -1,0 +1,36 @@
+@import "variables";
+
+.discography-title {
+  padding-bottom: 48px;
+}
+
+.music-album-list {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 25px 50px;
+}
+
+.name {
+  margin: 0;
+  padding-top: 18px;
+  color: $white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 150% */
+}
+
+.year {
+  color: $grey;
+}
+
+@media(max-width: 1239px) {
+  .album img {
+    width: 137px;
+    height: 137px;
+  }
+
+  .music-album-list {
+  repeat(auto-fill, minmax(137px, 1fr));
+  }
+}

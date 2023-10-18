@@ -1,0 +1,50 @@
+@import "variables";
+
+.track-title {
+  text-align: left;
+  padding-bottom: 48px;
+}
+
+.music-tracks {
+  display: grid;
+  grid-template-columns: repeat(2,551px);
+  gap: 25px 50px;
+}
+
+.track-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.track-time {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.track-name {
+  color: $white;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 19.2px */
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.track-meta,
+.track-time {
+  color: $grey;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 19.2px */
+}
+
+@media(max-width: 1239px) {
+.music-tracks {
+  grid-template-columns: 100%;
+  gap: 25px;
+}
+}
+
