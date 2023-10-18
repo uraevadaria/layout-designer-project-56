@@ -2,6 +2,7 @@
 
 .discography-title {
   padding-bottom: 48px;
+  text-align: left;
 }
 
 .music-album-list {
@@ -31,6 +32,6 @@
   }
 
   .music-album-list {
-  repeat(auto-fill, minmax(137px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(137px, 1fr));
   }
 }

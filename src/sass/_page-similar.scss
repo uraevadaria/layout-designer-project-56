@@ -1,0 +1,32 @@
+@import "variables";
+
+.similar-title {
+  padding-bottom: 48px;
+  text-align: left;
+}
+
+.page-similar .page-container {
+  margin-bottom: 100px;
+}
+
+.artist-list {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 25px 50px;
+  text-align: center;
+}
+
+.fan {
+  color: $grey;
+}
+
+@media (max-width: 1239px) {
+  .artist-list {
+    grid-template-columns: repeat(auto-fill, minmax(137px, 1fr));
+  }
+
+  .artist-similar img {
+    width: 137px;
+    height: 137px;
+  }
+}
