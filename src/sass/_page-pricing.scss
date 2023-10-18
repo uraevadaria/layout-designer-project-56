@@ -1,6 +1,6 @@
 @import "variables";
 
-.page-subscription{
+.page-subscription {
   color: $white;
 }
 
@@ -21,7 +21,7 @@
   margin: 0;
 }
 
-h3 {
+.type {
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -53,7 +53,7 @@ h3 {
   background-size: cover;
 }
 
-.btn-d{
+.btn-d {
   background: none;
   width: 100%;
   border: 1px solid $white;
@@ -82,4 +82,17 @@ h3 {
 .text-card,
 .text-under-cards {
   text-align: center;
+}
+
+@media(max-width: 1239px) {
+  .cards-items {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .card-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }

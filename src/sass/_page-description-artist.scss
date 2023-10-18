@@ -1,0 +1,85 @@
+@import "variables";
+
+.page-header {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.artist-title {
+  padding-bottom: 16px;
+}
+
+.artist-title,
+.subtitle-text {
+  text-align: left;
+}
+
+.artist {
+  padding: 200px 0;
+}
+
+.btn-a {
+  width: 200px;
+  height: 62px;
+  padding: 20px 30px;
+  display: flex;
+  gap: 16px;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+}
+
+.btn-m {
+  background: $purple;
+}
+
+.btn-l {
+  background: $red;
+}
+
+.icon {
+  color: $white;
+}
+
+.button {
+  display: flex;
+  gap: 24px;
+}
+
+.text-icon {
+  font-family: Roboto, sans-serif;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 19.2px */
+}
+
+@media(max-width: 1239px) {
+  .artist {
+    padding: 0 20px 224px 20px;
+  }
+
+  .button {
+    flex-direction: column;
+  }
+
+  .artist-title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 150% */
+    text-transform: uppercase;
+  }
+
+  .head-container {
+    position: static;
+  }
+
+  .head-search {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 55px;
+  }
+}
+

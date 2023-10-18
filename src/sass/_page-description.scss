@@ -1,6 +1,6 @@
 @import "variables";
 
-.page-section {
+.page-header {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -14,7 +14,7 @@
   width: 100%;
 }
 
-#header {
+.header {
   padding: 200px 0;
 }
 
@@ -132,20 +132,25 @@
     font-weight: bold;
   }
 
+  .header {
+    padding: 0 20px;
+  }
+
   .head-container {
-    position: relative;
+    position: static;
   }
 
   .head-left {
     padding-bottom: 17px;
     line-height: normal;
     font-weight: bold;
+    padding-top: 25px;
   }
 
   .head-search {
     margin: 0;
-    padding-top: 24px;
-    padding-bottom: 101px;
+    padding-top: 18px;
+    padding-bottom: 78px;
   }
 
   .input {

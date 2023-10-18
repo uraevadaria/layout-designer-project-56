@@ -1,0 +1,56 @@
+@import "variables";
+
+.page-app .page-container {
+  padding-bottom: 100px;
+}
+
+.title-app {
+  padding-bottom: 48px;
+}
+
+.text-app {
+  width: 600px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.flex-app {
+  display: flex;
+  gap: 144px;
+  justify-content: flex-start;
+}
+
+.img-app {
+  width: 333px;
+  height: 278px;
+}
+
+.btn-app {
+  border-radius: 32px;
+  padding: 16px 40px;
+  font-size: 12.8px;
+  background: $red;
+  align-items: flex-start;
+  margin-left: 0;
+  margin-right: auto;
+  line-height: 150%; /* 19.2px */
+  text-transform: none;
+}
+
+@media(max-width: 1239px) {
+  .flex-app {
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+
+  .text-app {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .img-app {
+    margin-inline: auto;
+  }
+
+
+}

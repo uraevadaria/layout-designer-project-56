@@ -6,9 +6,52 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Портал «Music Box»</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-
+<main class="page-artist">
+    <div class="page-header" id="page-description">
+        <div class="page-container artist">
+            <div class="head-container">
+                <div class="head-left">
+                    <a href="">
+                        <div class="logo">
+                            <img src="images/logo.svg" alt="logo" width="24" height="24">
+                            <div class="logo-text">Music Box</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="menu-text">
+                        <li class="text-item"><a href="">Главная</a></li>
+                        <li class="text-item"><a href="">Каталог</a></li>
+                        <li class="text-item"><a href="">Исполнители</a></li>
+                        <li class="text-item"><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="head-search">
+                    <div class="search">
+                        <form action="">
+                            <label for="search" class="sr-only">Поиск</label>
+                            <input class="search-form" name="search" id="search" placeholder="Поиск..." type="search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="page-main">
+                <h1 class="artist-title">Morten Harket</h1>
+                <div class="subtitle-text">24 875 поклонников</div>
+                <div class="button">
+                <button class="btn-m btn btn-a" type="submit"><img class="icon" src="images/play-button.svg" alt="play">
+                    <span class="text-icon">МИКС</span>
+                </button>
+                <button class="btn-l btn btn-a" type="submit"><img class="icon" src="images/heart.svg" alt="like">
+                    <span class="text-icon">В ИЗБРАННОЕ</span>
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
 </html>
