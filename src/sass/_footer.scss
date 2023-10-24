@@ -2,12 +2,12 @@
 
 .page-footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  width: 100%;
 }
 
 .container-footer {
-  position: relative;
   max-width: 1200px;
-  margin-inline: auto;
+  padding-left: 120px;
 }
 
 .footer-link-title {
@@ -20,7 +20,8 @@
   padding-bottom: 15px;
 }
 
-.footer-link {
+.footer-link,
+.footer-images {
   list-style-type: none;
 }
 
@@ -31,12 +32,21 @@
 .footer-navigation-links {
   padding: 0;
   margin: 0;
+  width: 270px;
+}
+
+.footer-top{
+  padding-top: 62px;
+  padding-bottom: 72px;
+}
+
+.footer-bottom {
+  padding-top: 40px;
+  padding-bottom: 49px;
 }
 
 .footer-navigation,
 .footer-other {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
   display: flex;
 }
 
@@ -50,12 +60,8 @@
   color: $grey;
 }
 
-.address {
-  color: $grey;
-  font-style: normal;
-}
-
-.img-footer {
+.footer-images {
+  padding: 0;
   display: flex;
   gap: 24px;
 }
@@ -64,14 +70,10 @@
   border-bottom: 1px solid $dark-grey;
 }
 
-.footer-other a {
-  color: $grey;
-}
-
 @media(max-width: 1239px) {
   .footer-navigation {
     flex-direction: column;
-    gap: 30px;
+    gap: 32px;
   }
 
   .footer-other {
@@ -85,4 +87,3 @@
     padding: 0 20px;
   }
 }
-
