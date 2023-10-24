@@ -1,7 +1,7 @@
 @import "variables";
 
 .page-app .page-container {
-  padding-left: 18px;
+  padding-left: 20px;
   margin: 0 0 100px;
   position: static;
 }
@@ -19,7 +19,6 @@
 .flex-app {
   display: flex;
   gap: 144px;
-  justify-content: flex-start;
 }
 
 .text-app-p {
