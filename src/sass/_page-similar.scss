@@ -12,7 +12,8 @@
 .page-similar .page-container {
   position: static;
   margin: 0 0 100px;
-  padding-left: 20px;
+  padding-inline: 20px;
+  max-width: 100%;
 }
 
 .artist-list {
