@@ -25,9 +25,12 @@
   align-items: center;
 }
 
-.logo-text:hover,
-.text-item:hover a {
+.logo-text {
   color: $white;
+}
+
+.text-item:first-child li {
+  color: $grey;
 }
 
 .menu-text {
@@ -154,7 +157,7 @@
   .page-header .head-search {
     margin: 0;
     padding-top: 18px;
-    padding-bottom: 78px;
+    padding-bottom: 77px;
   }
 
   .input {
