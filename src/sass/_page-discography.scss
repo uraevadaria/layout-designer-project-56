@@ -5,6 +5,12 @@
   text-align: left;
 }
 
+.page-track .page-container {
+  padding-left: 20px;
+  margin: 0;
+  position: static;
+}
+
 .music-album-list {
   display: grid;
   grid-template-columns: repeat(4, 250px);
