@@ -68,7 +68,7 @@
   justify-content: center;
   line-height: 1em;
   padding-bottom: 66px;
-  padding-top: 222px;
+  padding-top: 224px;
 }
 
 .price {
@@ -77,6 +77,8 @@
 
 .rub {
   font-size: 32px;
+  position: relative;
+  top: -8px;
 }
 
 .text-card,
