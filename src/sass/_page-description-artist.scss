@@ -70,8 +70,13 @@
     padding: 0 20px 224px 20px;
   }
 
+  .page-artist .page-container {
+    left: 0;
+  }
+
   .button {
     flex-direction: column;
+    padding: 0;
   }
 
   .artist-title {
@@ -80,6 +85,8 @@
     font-weight: 700;
     line-height: 45px; /* 150% */
     text-transform: uppercase;
+    padding-top: 0;
+    padding-bottom: 15px;
   }
 
   .head-container {
@@ -89,7 +96,7 @@
   .head-search {
     margin: 0;
     padding-top: 18px;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
   }
 }
 
