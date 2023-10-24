@@ -4,10 +4,21 @@
   padding-bottom: 48px;
 }
 
+.page-news .page-container {
+  padding-left: 20px;
+  margin: 0;
+  position: static;
+}
+
 .new {
   display: flex;
   gap: 50px;
   padding-bottom: 65px;
+}
+
+.new-img {
+  width: 575px;
+  height: 286px;
 }
 
 .new:nth-of-type(2n) {
@@ -27,17 +38,22 @@
 }
 
 .subscribe-new {
+  padding-bottom: 24px;
+}
+
+.subscribe-new-p {
   padding-bottom: 15px;
 }
 
 .music-box {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding-bottom: 48px;
+  gap: 17px;
+  padding-bottom: 49px;
 }
 
 .music-box-text {
+  width: 67px;
   color: $orange;
   font-size: 12px;
   font-style: normal;
@@ -47,7 +63,16 @@
   margin: 0;
 }
 
+.music-box-data {
+  color: $dark-grey;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px; /* 160% */
+}
+
 .btn-new {
+  width: 134px;
   border: 1px solid $dark-grey;
   margin-left: 0;
   margin-right: auto;
@@ -55,12 +80,17 @@
   font-size: 12px;
   font-style: normal;
   line-height: 19.2px; /* 160% */
+  padding: 16px 28px;
 }
 
 @media (max-width: 1239px) {
   .new,
   .new:nth-of-type(2n) {
     flex-direction: column;
+  }
+  .new {
+    gap: 49px;
+    padding-bottom: 64px;
   }
 
   .subtitle-new {
@@ -77,5 +107,18 @@
 
   .page-news .page-container {
     padding-bottom: 100px;
+  }
+
+  .subscribe-new-p {
+    padding-bottom: 18px;
+  }
+
+  .new-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .music-box {
+    padding-bottom: 48px;
   }
 }
