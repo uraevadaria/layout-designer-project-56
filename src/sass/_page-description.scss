@@ -132,6 +132,10 @@
     font-weight: bold;
   }
 
+  .menu-text {
+    gap: 3px;
+  }
+
   .header {
     padding: 0 20px;
   }
@@ -166,6 +170,10 @@
   }
   .subtitle {
     padding-bottom: 15px;
+  }
+
+  .subtitle-text {
+    text-align: center;
   }
 
   .form {
