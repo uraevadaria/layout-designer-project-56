@@ -4,6 +4,12 @@
   color: $white;
 }
 
+.page-subscription .page-container {
+  padding-left: 20px;
+  margin: 0;
+  position: static;
+}
+
 .cards-items {
   display: flex;
   justify-content: space-between;
