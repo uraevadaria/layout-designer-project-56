@@ -9,8 +9,8 @@
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
-  margin-top: 45px;
-  margin-bottom: 50px;
+  margin-top: 48px;
+  margin-bottom: 39px;
 }
 
 .card-item {
@@ -67,8 +67,8 @@
   gap: 16px;
   justify-content: center;
   line-height: 1em;
-  padding-bottom: 40px;
-  padding-top: 230px;
+  padding-bottom: 66px;
+  padding-top: 222px;
 }
 
 .price {
@@ -84,15 +84,36 @@
   text-align: center;
 }
 
+.text-card {
+  text-align: center;
+  font-size: 12.8px;
+  line-height: 150%; /* 19.2px */
+}
+
 @media(max-width: 1239px) {
   .cards-items {
     flex-direction: column;
-    gap: 50px;
+    gap: 49px;
     align-items: center;
+    margin-top: 49px;
   }
 
   .card-item {
     width: 100%;
     box-sizing: border-box;
+    height: 596px;
+  }
+
+  .flex {
+    padding-top: 224px;
+  }
+
+  .type {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    text-transform: uppercase;
+    padding-top: 14px;
   }
 }
