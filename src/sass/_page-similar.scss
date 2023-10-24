@@ -5,10 +5,14 @@
   text-align: left;
 }
 
+.artist-similar .name {
+  padding-top: 12px;
+}
+
 .page-similar .page-container {
-  padding-bottom: 20px;
   position: static;
   margin: 0 0 100px;
+  padding-left: 20px;
 }
 
 .artist-list {
@@ -25,10 +29,19 @@
 @media (max-width: 1239px) {
   .artist-list {
     grid-template-columns: repeat(auto-fill, minmax(137px, 1fr));
+    gap: 25px 0;
   }
 
   .artist-similar img {
     width: 137px;
     height: 137px;
+  }
+
+  .artist-similar {
+    width: 137px;
+  }
+
+  .page-similar .page-container {
+    margin: 0;
   }
 }
